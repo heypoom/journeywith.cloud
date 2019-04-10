@@ -11,6 +11,23 @@ h1 {
   font-size: 4em;
 }
 
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade {
+  animation: fadein 3s;
+}
+
+.hidden {
+  opacity: 0;
+}
+
 .card {
   box-shadow: rgba(0, 0, 0, 1) 0px 6px 20px;
   background-color: #fff;

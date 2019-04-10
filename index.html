@@ -18,7 +18,7 @@
       <div id="particles-js"></div>
 
       <div class="container rellax">
-        <h1>Journey with the Clouds</h1>
+        <h1 class="fade">Journey with the Clouds</h1>
       </div>
       <div>
         <img
@@ -51,10 +51,16 @@
           class="rellax"
           data-rellax-speed="-5"
         />
+        <img
+          src="assets/cloud.svg"
+          style="display: block; width: 10vw; margin-left: 20%"
+          class="rellax"
+          data-rellax-speed="5"
+        />
       </div>
 
       <div class="container rellax" data-rellax-speed="0">
-        <div class="card">
+        <div class="card hidden" id="lyric">
           <p>
             มีเมฆก้อนน้อย ล่องลอยเต็มฟากฟ้า<br />
             เมฆบนนภา ลมพัดมันมาต่างกัน<br />
@@ -86,6 +92,7 @@
       </div>
     </main>
 
+    <script src="lib/inviewport.min.js" type="text/javascript"></script>
     <script src="lib/particles.min.js" type="text/javascript"></script>
     <script src="lib/rellax.min.js" type="text/javascript"></script>
     <script src="app.js" type="text/javascript"></script>
