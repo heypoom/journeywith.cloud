@@ -27,7 +27,6 @@ html {
 ::-webkit-scrollbar-button {
   display: none;
 }
-
 /* Body Backgroud & Font */
 body {
   /* Font */
@@ -39,9 +38,8 @@ body {
     135deg,
     rgba(34, 39, 68, 1) 0%,
     rgba(36, 38, 73, 1) 40%,
-    rgba(92, 0, 222, 1) 100%
+    rgba(78, 10, 173, 0.8) 100%
   );
-  rgba(78, 10, 173, 0.8)100%
   /*background: linear-gradient(#232741, #1a2046);*/
   overflow-x: hidden;
 }
