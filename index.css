@@ -96,6 +96,12 @@ h1 {
 }
 
 /* Responsive */
+@media only screen and (max-width: 375px) {
+  #lyric {
+    font-size: 0.8em;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .card {
     padding: 10px;
@@ -107,8 +113,22 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 992px) {
+  .card {
+    padding: 100px;
+    max-width: 75vw;
+  }
   #lyric {
-    font-size: 0.8em;
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .card {
+    padding: 10px;
+    max-width: 75vw;
+  }
+  #lyric {
+    font-size: 1.8em;
   }
 }
