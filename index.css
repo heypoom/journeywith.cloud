@@ -123,7 +123,7 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (width: 1200px) {
   .card {
     padding: 10px;
     max-width: 80vw;
@@ -132,3 +132,16 @@ h1 {
     font-size: 1.7em;
   }
 }
+
+/*Specially for MBP*/
+@media (height: 1600px) and (width: 2560px) {
+  .card {
+    padding: 10px;
+    max-width: 75vw;
+  }
+
+  #lyric {
+    font-size: 1.5em;
+  }
+}
+
