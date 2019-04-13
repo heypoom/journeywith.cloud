@@ -123,12 +123,12 @@ h1 {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .card {
     padding: 10px;
-    max-width: 75vw;
+    max-width: 80vw;
   }
   #lyric {
-    font-size: 1.8em;
+    font-size: 1.7em;
   }
 }
