@@ -1,5 +1,5 @@
 /* Import Font */
-@import url('https://fonts.googleapis.com/css?family=Kanit');
+@import url("https://fonts.googleapis.com/css?family=Kanit");
 
 /* HTML */
 html {
@@ -25,18 +25,23 @@ html {
 }
 
 ::-webkit-scrollbar-button {
-  display: none
+  display: none;
 }
-
 
 /* Body Backgroud & Font */
 body {
   /* Font */
-  font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
   color: white;
   /* Backgroud */
   background: rgb(34, 39, 68);
-  background: linear-gradient(135deg, rgba(34, 39, 68, 1) 0%, rgba(36, 38, 73, 1) 40%, rgba(92, 0, 222, 1) 100%);
+  background: linear-gradient(
+    135deg,
+    rgba(34, 39, 68, 1) 0%,
+    rgba(36, 38, 73, 1) 40%,
+    rgba(92, 0, 222, 1) 100%
+  );
+  rgba(78, 10, 173, 0.8)100%
   /*background: linear-gradient(#232741, #1a2046);*/
   overflow-x: hidden;
 }
