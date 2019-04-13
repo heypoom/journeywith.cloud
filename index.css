@@ -101,4 +101,15 @@ h1 {
     padding: 10px;
     max-width: 75vw;
   }
+
+  #lyric {
+    font-size: 1em;
+  }
+}
+
+/* iPhone Responsive */
+@media only screen and (max-width: 375px) {
+  #lyric {
+    font-size: 0.8em;
+  }
 }
