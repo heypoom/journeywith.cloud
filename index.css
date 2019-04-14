@@ -104,13 +104,10 @@ h1 {
 
 /* Responsive */
 @media only screen and (max-width: 767px) {
-  .card {
-    padding: 10px;
-    max-width: 75vw;
-  }
-
   #lyric {
     font-size: 1em;
+    padding: 10px;
+    max-width: 75vw;
   }
 }
 
@@ -123,5 +120,5 @@ h1 {
 @media only screen and (max-height: 750px) {
   #lyric {
     padding: 20px 50px 20px 50px;
-    }
+  }
 }
