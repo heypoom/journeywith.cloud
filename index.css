@@ -78,6 +78,10 @@ h1 {
   opacity: 0;
 }
 
+.card {
+  z-index: 2;
+}
+
 /* Lyric Card */
 #lyric {
   box-shadow: rgba(0, 0, 0, 1) 0px 6px 20px;
