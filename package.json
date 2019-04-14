@@ -6,12 +6,14 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "live-server"
+    "dev": "live-server & yarn scss",
+    "scss": "node-sass --watch scss -o css"
   },
   "devDependencies": {
     "husky": ">=1",
     "lint-staged": ">=8",
     "live-server": "^1.2.1",
+    "node-sass": "^4.11.0",
     "prettier": "^1.17.0"
   },
   "husky": {
@@ -20,7 +22,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,css,json,md,html}": [
+    "*.{js,css,json,md,html,scss}": [
       "prettier --write",
       "git add"
     ]

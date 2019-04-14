@@ -1,5 +1,14 @@
 /* Import Font */
 @import url("https://fonts.googleapis.com/css?family=Kanit");
+@import "normalize";
+@import "stars";
+
+$background: linear-gradient(
+  135deg,
+  rgba(34, 39, 68, 1) 0%,
+  rgba(36, 38, 73, 1) 40%,
+  rgba(78, 10, 173, 0.8) 100%
+);
 
 /* HTML */
 html {
@@ -27,20 +36,14 @@ html {
 ::-webkit-scrollbar-button {
   display: none;
 }
+
 /* Body Backgroud & Font */
 body {
   /* Font */
   font-family: "Kanit", sans-serif;
   color: white;
   /* Backgroud */
-  background: rgb(34, 39, 68);
-  background: linear-gradient(
-    135deg,
-    rgba(34, 39, 68, 1) 0%,
-    rgba(36, 38, 73, 1) 40%,
-    rgba(78, 10, 173, 0.8) 100%
-  );
-  /*background: linear-gradient(#232741, #1a2046);*/
+  background: $background;
   overflow-x: hidden;
 }
 
@@ -92,6 +95,20 @@ h1 {
   border-radius: 30px;
   font-family: "Kanit", sans-serif;
   font-size: 1.25em;
+
+  @media only screen and (max-width: 767px) {
+    font-size: 1em;
+    padding: 10px;
+    max-width: 75vw;
+  }
+
+  @media only screen and (max-width: 375px) {
+    font-size: 0.8em;
+  }
+
+  @media only screen and (max-height: 750px) {
+    padding: 20px 50px 20px 50px;
+  }
 }
 
 /* Particles JS */
@@ -100,25 +117,4 @@ h1 {
   width: 100%;
   height: 100%;
   z-index: 0;
-}
-
-/* Responsive */
-@media only screen and (max-width: 767px) {
-  #lyric {
-    font-size: 1em;
-    padding: 10px;
-    max-width: 75vw;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  #lyric {
-    font-size: 0.8em;
-  }
-}
-
-@media only screen and (max-height: 750px) {
-  #lyric {
-    padding: 20px 50px 20px 50px;
-  }
 }
