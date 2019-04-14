@@ -115,3 +115,9 @@ h1 {
     font-size: 0.8em;
   }
 }
+
+@media only screen and (max-height: 750px) {
+  #lyric {
+    padding: 20px 50px 20px 50px;
+    }
+}
