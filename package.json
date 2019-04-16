@@ -10,6 +10,7 @@
     "scss": "node-sass --watch scss -o css"
   },
   "devDependencies": {
+    "@types/three": "^0.103.2",
     "husky": ">=1",
     "lint-staged": ">=8",
     "live-server": "^1.2.1",
